@@ -1,0 +1,107 @@
+/* Begin of reseting browser default  */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* End of reseting browser default  */
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(228, 228, 228);
+    font-size: 24px;
+    padding: 8px;
+}
+
+header{
+    background-color: #1a2930;
+    color: white;
+    height: 15vw;
+    font-size: x-large;
+    text-align: center;
+    border-radius: 5px;
+    padding: 13px;
+    }
+  
+.title{
+    font-weight: 500;
+    padding-left: 2px;
+    padding-bottom: 5px;
+}
+#item{
+    background-color:#f4f4f4;
+    padding-left: 5px;
+
+    border-radius: 5px;
+    border: solid 1px black;
+}
+li{
+    padding-left: 12px;
+    height: 2rem;
+    border: solid #1a2930 1px;
+    padding: 2px;
+}
+button{
+    background-color: firebrick;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border: solid 1px skyblue;
+    
+}
+#filter{
+    border-radius: 5px;
+    border: solid 1px black;
+
+}
+.btn-danger{
+    float: right;
+    padding-right: 5px;
+    text-align: center;
+}
+.btn-dark, .form-control{
+    font-size: 25px;
+}
